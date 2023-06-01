@@ -1,4 +1,16 @@
+Thomas Kinderman Muñoz
+
 ANÁLISIS:
+
+El programa debería ofrecer a la empresa un registro;
+
+La empresa podrá crear viajes, los cuales son asociados con un conductor y un bus, posteriormente los viajes se podrán agregar al arreglo de la empresa para que pueda mostrar posteriormente, los viajes buscados.
+
+También la empresa podrá quitar buses.
+
+Cabe destacar que en el programa ni el bus ni el conductor consideran tener como atributo un arreglo de viajes, ya que debería estar a cargo de la clase Empresa.
+
+
 
 Clases:
 
