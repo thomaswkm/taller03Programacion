@@ -56,16 +56,17 @@ public class Empresa {
 		}
 	}
 
-	public void quitarBus(Bus bus){
-		buses.remove(bus);
+	public void descontinuarBus(String patente){
+		buses.remove(buscarBus(patente));
 	}
 
-	public void descontinuarBus(String patente) {
+	public Bus buscarBus(String patente) {
 		for (Bus b: buses) {
 			if(b.getPatente().equals(patente)){
-				quitarBus(b);
+				return b;
 			}
 		}
+		return null;
 	}
 
 	public void agregarViaje(Viaje viaje) {

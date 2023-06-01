@@ -36,7 +36,7 @@ class EmpresaTest {
     void descontinuarBus() {
         empresa.agregarBus(bus);
         empresa.descontinuarBus(bus.getPatente());
-        assertTrue(empresa.getBuses().contains(bus));
+        assertFalse(empresa.getBuses().contains(bus));
 
     }
 
