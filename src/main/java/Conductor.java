@@ -4,6 +4,16 @@ public class Conductor {
 	private String numeroContacto;
 	private String tipoLicencia;
 
+	public Conductor(String nombre, String apellido, String numeroContacto, String tipoLicencia) {
+		this.nombre = nombre;
+		this.apellido = apellido;
+		this.numeroContacto = numeroContacto;
+		this.tipoLicencia = tipoLicencia;
+	}
+
+	public Conductor() {
+	}
+
 	public String getNombre() {
 		return this.nombre;
 	}

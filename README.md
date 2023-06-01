@@ -44,6 +44,6 @@ Viaje:
 Para efectos de la solución, se requiere generar un conjunto de funcionalidades en la empresa.
 
     Agregar buses y conductores. -> metodo agregarBus() y agregarConductor() en clase Empresa
-    Asociar viajes a un bus en específico. -> metodo asociarBus() clase Viaje
+    Asociar viajes a un bus en específico. -> metodo asociarBus() clase Empresa
     Obtener todos los buses que viajan en un determinado rango de tiempo a una ciudad de destino en específico. -> metodo agregarViaje() en conjunto con metodo auxiliar que busque en en arraylist en clase Empresa
     Descontinuar un bus de acuerdo a la patente del vehículo. -> metodo descontinuarBus() clase Empresa

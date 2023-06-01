@@ -4,13 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="60b34fc3-b3ed-451d-9309-99e581dda6ab" name="Changes" comment="Primer commit, archivo .vpp y evidencia.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Bus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Conductor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Empresa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Viaje.java" afterDir="false" />
+    <list default="true" id="60b34fc3-b3ed-451d-9309-99e581dda6ab" name="Changes" comment="Segundo commit, breve actualización analisis en README.md. &#10;&#10;Falto mencionar implementacion archivos .java commit anterior.">
+      <change afterPath="$PROJECT_DIR$/src/test/java/EmpresaTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Bus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Bus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Conductor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Conductor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Empresa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Empresa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Viaje.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Viaje.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +21,13 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -45,6 +54,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "last_opened_file_path": "/home/thomas/IdeaProjects/taller03Programacion/src/main/java"
   }
 }]]></component>
@@ -53,6 +64,50 @@
       <recent name="$PROJECT_DIR$/src/main/java" />
       <recent name="$PROJECT_DIR$/vpp" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.EmpresaTest">
+    <configuration name="EmpresaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="taller03Programacion" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="EmpresaTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmpresaTest.descontinuarBus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="taller03Programacion" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="EmpresaTest" />
+      <option name="METHOD_NAME" value="descontinuarBus" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmpresaTest.obtenerBusesRangoTiempoYDestino" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="taller03Programacion" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="EmpresaTest" />
+      <option name="METHOD_NAME" value="obtenerBusesRangoTiempoYDestino" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.EmpresaTest" />
+        <item itemvalue="JUnit.EmpresaTest.descontinuarBus" />
+        <item itemvalue="JUnit.EmpresaTest.obtenerBusesRangoTiempoYDestino" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -70,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685646689058</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Segundo commit, breve actualización analisis en README.md. &#10;&#10;Falto mencionar implementacion archivos .java commit anterior.">
+      <created>1685647395418</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685647395418</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -86,6 +148,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Primer commit, archivo .vpp y evidencia." />
-    <option name="LAST_COMMIT_MESSAGE" value="Primer commit, archivo .vpp y evidencia." />
+    <MESSAGE value="Segundo commit, breve actualización analisis en README.md. &#10;&#10;Falto mencionar implementacion archivos .java commit anterior." />
+    <option name="LAST_COMMIT_MESSAGE" value="Segundo commit, breve actualización analisis en README.md. &#10;&#10;Falto mencionar implementacion archivos .java commit anterior." />
   </component>
 </project>

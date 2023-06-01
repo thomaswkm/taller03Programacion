@@ -4,6 +4,17 @@ public class Bus {
 	private String modelo;
 	private Conductor conductor;
 
+	public Bus(String patente, String marca, String modelo) {
+		this.patente = patente;
+		this.marca = marca;
+		this.modelo = modelo;
+		this.conductor = null;
+	}
+
+	public Bus() {
+
+	}
+
 	public String getPatente() {
 		return this.patente;
 	}
@@ -17,7 +28,7 @@ public class Bus {
 	}
 
 	public void asociarConductor(Conductor conductor) {
-		throw new UnsupportedOperationException();
+		this.conductor = conductor;
 	}
 
 }
